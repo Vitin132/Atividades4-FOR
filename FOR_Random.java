@@ -28,6 +28,7 @@ public class FOR_Random {
             if (palpite == numero) {
 
                 System.out.println("Parabéns você acertou em " + tentativas + "tentativas!");
+                break;
 
             } else if (palpite < numero) {
 
